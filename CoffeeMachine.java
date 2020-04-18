@@ -134,12 +134,6 @@ public class CoffeeMachine {
                 System.out.println("Write how many disposable cups of coffee do you want to add:");
                 cups += scanner.nextInt();
 
-                System.out.println("The coffee machine has: ");
-                System.out.println(water + " of water");
-                System.out.println(milk + " of milk");
-                System.out.println(coffee + " of coffee beans");
-                System.out.println(cups + " of disposable cups");
-                System.out.println("$" + money + " of money");
             }
 
             // TAKE LOGIC
@@ -147,13 +141,7 @@ public class CoffeeMachine {
             if(command.equals("take")){
                 System.out.println("I gave you $" + money);
                 money = 0;
-
-                System.out.println("The coffee machine has: ");
-                System.out.println(water + " of water");
-                System.out.println(milk + " of milk");
-                System.out.println(coffee + " of coffee beans");
-                System.out.println(cups + " of disposable cups");
-                System.out.println("$" + money + " of money");
+                
             }
 
             // REMAINING LOGIC
