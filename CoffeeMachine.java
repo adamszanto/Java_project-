@@ -139,7 +139,7 @@ public class CoffeeMachine {
                 System.out.println(milk + " of milk");
                 System.out.println(coffee + " of coffee beans");
                 System.out.println(cups + " of disposable cups");
-                System.out.println(money + " of money");
+                System.out.println("$" + money + " of money");
             }
 
             // TAKE LOGIC
@@ -153,7 +153,7 @@ public class CoffeeMachine {
                 System.out.println(milk + " of milk");
                 System.out.println(coffee + " of coffee beans");
                 System.out.println(cups + " of disposable cups");
-                System.out.println(money + " of money");
+                System.out.println("$" + money + " of money");
             }
 
             // REMAINING LOGIC
@@ -164,7 +164,7 @@ public class CoffeeMachine {
                 System.out.println(milk + " of milk");
                 System.out.println(coffee + " of coffee beans");
                 System.out.println(cups + " of disposable cups");
-                System.out.println(money + " of money");
+                System.out.println("$" + money + " of money");
             }
 
         }
