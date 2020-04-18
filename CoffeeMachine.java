@@ -54,6 +54,7 @@ public class CoffeeMachine {
                             System.out.println("Sorry, not enought disposable cup!");
                             break;
                         } else {
+                            System.out.println("I have enough resources, making you a coffee!");
                             water -= 250;
                             coffee -= 16;
                             cups -= 1;
@@ -77,6 +78,7 @@ public class CoffeeMachine {
                             System.out.println("Sorry, not enought disposable cup!");
                             break;
                         } else {
+                            System.out.println("I have enough resources, making you a coffee!");
                             water -= 350;
                             milk -= 75;
                             coffee -= 20;
@@ -97,9 +99,10 @@ public class CoffeeMachine {
                             System.out.println("Sorry, not enough coffee!");
                             break;
                         } else if(cups == 0){
-                            System.out.println("Sorry, not enought disposable cup!");
+                            System.out.println("Sorry, not enough disposable cup!");
                             break;
                         } else {
+                            System.out.println("I have enough resources, making you a coffee!");
                             water -= 200;
                             milk -= 100;
                             coffee -= 12;
